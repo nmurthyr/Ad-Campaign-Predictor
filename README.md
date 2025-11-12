@@ -55,8 +55,8 @@ The solution combines machine learning, geospatial analysis, and interactive use
 ### Installation Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ad-campaign-recommender.git
-   cd ad-campaign-recommender
+   git clone https://github.com/nmurthyr/ad-campaign-predictor.git
+   cd ad-campaign-predictor
    ```
 
 2. Install dependencies:
@@ -71,12 +71,12 @@ The solution combines machine learning, geospatial analysis, and interactive use
 ### Running the Application Locally
 1. Build the Docker image:
    ```bash
-   docker build -t ad-campaign-recommender .
+   docker build -t ad-campaign-predictor .
    ```
 
 2. Run the application in a Docker container:
    ```bash
-   docker run -p 8501:8501 ad-campaign-recommender
+   docker run -p 8501:8501 ad-campaign-predictor
    ```
 
 The application will be accessible at `http://localhost:8501`.
@@ -133,7 +133,7 @@ The application will be accessible at `http://localhost:8501`.
 2. Copy the Docker image to your S3 bucket.
 3. Run the application on the EC2 instance:
    ```bash
-   docker run -p 8501:8501 ad-campaign-recommender
+   docker run -p 8501:8501 ad-campaign-predictor
    ```
 4. Expose port 8501 to allow external access.
 
